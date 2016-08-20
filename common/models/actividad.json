@@ -1,0 +1,22 @@
+{
+  "name": "Actividad",
+  "plural": "Actividades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "actividad_id": {
+      "type": "number",
+      "required": true
+    },
+    "actividad_nombre": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

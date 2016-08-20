@@ -39,5 +39,9 @@
   "Grupo": {
     "dataSource": "nasty_db",
     "public": true
+  },
+  "Actividad": {
+    "dataSource": "nasty_db",
+    "public": true
   }
 }
