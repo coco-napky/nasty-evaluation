@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "nasty_db": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:21251122@localhost:3306/nasty_db",
+    "database": "nasty_db",
+    "password": "21251122",
+    "name": "nasty_db",
+    "user": "root",
+    "connector": "mysql"
   }
 }

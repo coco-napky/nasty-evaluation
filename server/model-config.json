@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Usuario": {
+    "dataSource": "nasty_db",
+    "public": true
   }
 }
