@@ -1,0 +1,39 @@
+{
+  "name": "Evaluacion",
+  "plural": "Evaluaciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "evaluacion_id": {
+      "type": "number",
+      "required": true
+    },
+    "evaluacion_evaluador": {
+      "type": "number",
+      "required": true
+    },
+    "evaluacion_evaluado": {
+      "type": "number",
+      "required": true
+    },
+    "evaluacion_grupo": {
+      "type": "number",
+      "required": true
+    },
+    "evaluacion_actividad": {
+      "type": "number",
+      "required": true
+    },
+    "evaluacion_nota": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
