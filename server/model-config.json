@@ -35,5 +35,9 @@
   "Usuario": {
     "dataSource": "nasty_db",
     "public": true
+  },
+  "Grupo": {
+    "dataSource": "nasty_db",
+    "public": true
   }
 }
