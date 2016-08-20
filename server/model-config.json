@@ -47,5 +47,9 @@
   "Rol": {
     "dataSource": "nasty_db",
     "public": true
+  },
+  "Evaluacion": {
+    "dataSource": "nasty_db",
+    "public": true
   }
 }
