@@ -1,0 +1,22 @@
+{
+  "name": "Rol",
+  "plural": "Roles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "rol_id": {
+      "type": "number",
+      "required": true
+    },
+    "rol_nombre": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -43,5 +43,9 @@
   "Actividad": {
     "dataSource": "nasty_db",
     "public": true
+  },
+  "Rol": {
+    "dataSource": "nasty_db",
+    "public": true
   }
 }

@@ -1,9 +1,9 @@
 module.exports = function(app) {
-  app.dataSources.nasty_db.automigrate('Actividad', function(err) {
+  app.dataSources.nasty_db.automigrate('Rol', function(err) {
     if (err) throw err;
 
-    app.models. Actividad.create([
-      {actividad_id: 0, actividad_nombre: 'SATANIZAR'}
+    app.models. Rol.create([
+      {rol_id: 0, rol_nombre: 'SATAN MASTER'}
     ], function(err, models) {
       if (err) throw err;
 
